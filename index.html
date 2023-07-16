@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>html form</title>
+</head>
+<body>
+    <main>
+        <section class="contact-form">
+           
+            <div class="contact-form-wrapper container flex">
+                <div class="contact-form-left flex">
+                   <h2>Get in touch</h2>
+                   <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p> 
+                </div>
+                <div class="contact-form-right flex">
+                    <form class="my-contact-form" action="https://formspree.io/f/maygyrka"
+                    method="POST" class=" form-wrapper " action="#">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" id="name" placeholder="e.g: john doe">
+
+                        <label for="email">Your Email</label>
+                        <input type="text" name="email" id="email" placeholder="@example.com">
+
+                        <label for="tex">Your Phone</label>
+                        <input type="tel" name="tel" id="tel" placeholder="+880 *** ******">
+
+                        <label for="message">Your Message Here</label>
+                        <textarea name="message" id="message"  placeholder="Your text here....."></textarea>
+                        <input class="submit primary-btn" type="submit" value="Enter">
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
